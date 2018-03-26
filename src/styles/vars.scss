@@ -1,0 +1,154 @@
+$color-primary: #20a0ff;//#18c79c
+$aside-expanded-width:150px;
+$aside-collapsed-width:60px;
+
+
+.pull-right {
+  //float: right !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.pull-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+.badge {
+  text-shadow: none;
+  font-size: 12px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  font-weight: normal;
+  line-height: 15px;
+  background-color: #ABBAC3;
+  border-radius: 10px;
+  min-width: 10px;
+
+  position: relative;
+  top: -4px;
+  left: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.badge.no-radius {
+  border-radius: 0;
+}
+.badge.radius-1 {
+  border-radius: 1px;
+}
+.badge.radius-2 {
+  border-radius: 2px;
+}
+.badge.radius-3 {
+  border-radius: 3px;
+}
+.badge.radius-4 {
+  border-radius: 4px;
+}
+.badge.radius-5 {
+  border-radius: 5px;
+}
+.badge.radius-6 {
+  border-radius: 6px;
+}
+.badge.badge-important,
+.badge-important {
+  background-color: #D15B47;
+}
+.badge.badge-grey,
+.badge-grey {
+  background-color: #A0A0A0;
+}
+
+
+.nav {
+  height: 100%;
+}
+.nav >li{
+  float:left;
+  line-height: 40px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.nav >li >a{
+  color: #FFF;
+  display: block;
+  line-height: inherit;
+  text-align: center;
+  height: 100%;
+  width: auto;
+  min-width: 40px;
+  padding: 0 8px;
+  position: relative;
+}
+
+.nav-user-photo {
+  margin: 1px 8px 0 0;
+  border-radius: 100%;
+  border: 2px solid #FFF;
+  max-width: 34px;
+}
+
+.nav > li.green > a {
+  background-color: #2E8965;
+}
+.nav > li.green > a:hover,
+.nav > li.green > a:focus,
+.nav > li.open.green > a {
+  background-color: #2c7659;
+}
+
+.nav > li.purple > a {
+  background-color: #892E65;
+}
+.nav > li.purple > a:hover,
+.nav > li.purple > a:focus,
+.nav > li.open.purple > a {
+  background-color: #762c59;
+}
+
+.nav > li.light-blue > a {
+  background-color: #62A8D1;
+}
+.nav > li.light-blue > a:hover,
+.nav > li.light-blue > a:focus,
+.nav > li.open.light-blue > a {
+  background-color: #579ec8;
+}
+
+.nav > li.blue > a {
+  background-color: #2E6589;
+}
+.nav > li.blue > a:hover,
+.nav > li.blue > a:focus,
+.nav > li.open.blue > a {
+  background-color: #2c5976;
+}
+
+.user-info {
+  max-width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+  line-height: 15px;
+  position: relative;
+  top: 6px;
+  cursor: pointer;
+  color:#fff;
+}
+.user-info small {
+  display: block;
+}
+

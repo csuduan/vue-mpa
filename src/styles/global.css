@@ -1,0 +1,60 @@
+/* GLOBAL
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+}
+footer{
+  background: #000000;
+  padding: 15px;
+}
+footer a{
+  color: white;
+}
+
+.banner{
+  position: relative;
+  height: 280px;
+  background-image: url('/images/banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  text-align: center;
+}
+
+.banner .blog-intro{
+  margin-top: 120px;
+  padding: 15px;
+  color: white;
+}
+.banner .blog-intro .avatar{
+  width: 50px;
+  height: 50px;
+}
+.banner .blog-intro .title{
+  font-size: 28px;
+}
+.banner .blog-intro .description{
+  font-size: 18px;
+}
+
+.post .post-title a{
+  color: #777;
+}
+.post .post-title a:hover{
+  color: #333;
+  text-decoration: none;
+}
+
+#home-header .navbar-nav>li>a, #home-header .navbar-brand{
+  color: #ccc;
+}
+#home-header .navbar-nav>li>a:hover{
+  color: white;
+}
+
+.comment img{
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  margin-right: 10px;
+}

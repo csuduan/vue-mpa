@@ -1,0 +1,39 @@
+
+#profile .container, #edit .container, #posts .container {
+  margin-bottom: 20px;
+}
+
+#profile img.avatar {
+  height: 65px;
+  width: 65px;
+  margin-right: 15px;
+}
+
+#edit #content {
+  height: 385px;
+  resize: vertical;
+}
+
+#edit #preview {
+  border: solid 1px #ccc;
+  height: 435px;
+  overflow: auto;
+  padding: 15px;
+}
+
+#posts .table {
+  margin-top: 30px;
+}
+
+#posts .table .title {
+
+}
+
+#posts .table .date {
+  width: 300px;
+  vertical-align: middle;
+}
+
+#posts .table .operation {
+  width: 100px;
+}

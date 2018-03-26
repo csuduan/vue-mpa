@@ -1,0 +1,49 @@
+
+.center-wrapper{
+    display: table;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body#login, body#register{
+    background: #3c3c3c;
+}
+
+#login, #register h3{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#login form{
+    margin-bottom: 0;
+}
+#login .operation{
+    width: 450px;
+    margin: 0 auto;
+    text-align: right;
+}
+#login .alert{
+    max-width: 400px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#register form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+#register input{
+    margin-bottom: 5px;
+}
+#forgot #username{
+    width: 300px;
+}
+#reset form{
+    width: 400px;
+}
