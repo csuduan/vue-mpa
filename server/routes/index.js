@@ -1,7 +1,7 @@
 const articles = require('./articles')
 const messages = require('./messages')
 const admin = require('./admin')
-const config=require('../../config')
+const config = require('../../config')
 const path = require('path')
 
 module.exports = (app) => {
@@ -13,19 +13,23 @@ module.exports = (app) => {
 
 
   app.use('/demo(/*)?', function (req, res) {
-    res.sendFile(config.build.assetsRoot+'/demo.html')
+    console.log("/demo")
+    res.sendFile(config.build.assetsRoot + '/demo.html')
   });
 
   app.use('/blog(/*)?', function (req, res) {
-    res.sendFile(config.build.assetsRoot+'/blog.html')
+    console.log("/blog")
+    res.sendFile(config.build.assetsRoot + '/blog.html')
   });
   app.use('/blogadmin(/*)?', function (req, res) {
-    res.sendFile(config.build.assetsRoot+'/blogadmin.html')
+    console.log("/blogadmin")
+    res.sendFile(config.build.assetsRoot + '/blogadmin.html')
   });
 
   app.use('/test', function (req, res) {
     res.json({message: ' welcome to our api!'});
   });
+
 
 
 }

@@ -7,7 +7,7 @@ const path = require('path')
 module.exports = {
   server:{
     port:3001,
-    mongodb: 'mongodb://192.168.1.16/tm-blog1',
+    mongodb: 'mongodb://192.168.1.16/tm-blog',
   },
   dev: {
 
